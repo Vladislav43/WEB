@@ -1,0 +1,36 @@
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.deps.json
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.pdb
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.AssemblyReference.cache
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfoInputs.cache
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfo.cs
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\refint\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.pdb
+C:\Users\Dell Latitude E5570\source\repos\Slobodianiuk.University.Example-main\Fluentify.Models\obj\Debug\net7.0\ref\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.deps.json
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.pdb
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.AssemblyReference.cache
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfoInputs.cache
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfo.cs
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\refint\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.pdb
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\Debug\net7.0\ref\Fluentify.Models.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.deps.json
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.pdb
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfo.cs
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\refint\Fluentify.Models.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.pdb
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\ref\Fluentify.Models.dll

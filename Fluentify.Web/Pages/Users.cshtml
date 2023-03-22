@@ -1,0 +1,49 @@
+﻿@page
+@model UsersModel
+@{
+    ViewData["Title"] = "Users";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(user => user.Users[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(user => user.Users[0].Nickname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(user => user.Users[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(user => user.Users[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(user => user.Users[0].RegDate)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(userItem => user.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(userItem => user.Nickname)
+                </td>
+                <td>
+                    @Html.DisplayFor(userItem => user.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(userItem => user.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(userItem => user.RegDate)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

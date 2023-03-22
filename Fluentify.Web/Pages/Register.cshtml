@@ -1,0 +1,62 @@
+﻿@page
+@model UserService
+@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<style type="text/css">
+    .error {
+        color: aqua;
+        font-size: 10px;
+    }
+    .form-group{
+        margin-top: 20px;
+    }
+</style>
+
+<br />
+<h2 class="text-center"><b>Create your profile</b></h2>
+<br />
+
+<div class="container d-flex justify-content-center align-self-center">
+    <form method="post">
+        <div class="form-group row">
+            <div class="col-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@@</div>
+                    </div>
+                    <input asp-for="Users.Nickname" class="form-control" placeholder="Your nickname" />
+                </div>
+                <span asp-validation-for="Users.Nickname" class="error"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-12">
+                <input asp-for="Users.Email" type="email" class="form-control" placeholder="example@gmail.com"/>
+                <span asp-validation-for="Users.Email" class="error"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-12">
+                <input asp-for="Users.Password" type="password" class="form-control" placeholder="Your password">
+                <span asp-validation-for="Users.Password" class="error"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-12">
+                <input asp-for="Users.ConfirmPassword" type="password" class="form-control" placeholder="Confirm password">
+                <span asp-validation-for="Users.ConfirmPassword" class="error"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-12">
+                <input type="submit" class="btn btn-dark rounded-pill form-control" asp-page-handler="Submit" />
+            </div>
+        </div>
+    </form>
+</div>

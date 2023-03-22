@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a2356a3f-e5e5-4965-8f73-a388fe6c2497</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fluentify.Core\Fluentify.Core.csproj" />
+    <ProjectReference Include="..\Fluentify.Database\Fluentify.Database.csproj" />
+    <ProjectReference Include="..\Fluentify.Models\Fluentify.Models.csproj" />
+  </ItemGroup>
+
+</Project>

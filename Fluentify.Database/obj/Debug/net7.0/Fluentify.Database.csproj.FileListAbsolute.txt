@@ -1,0 +1,38 @@
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.deps.json
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.runtimeconfig.json
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.pdb
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Core.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Models.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Core.pdb
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Models.pdb
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.csproj.AssemblyReference.cache
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.AssemblyInfoInputs.cache
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.AssemblyInfo.cs
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.csproj.CoreCompileInputs.cache
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.csproj.CopyComplete
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\refint\Fluentify.Database.dll
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.pdb
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.genruntimeconfig.cache
+C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Database\obj\Debug\net7.0\ref\Fluentify.Database.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.deps.json
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.runtimeconfig.json
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Database.pdb
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Core.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Models.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Core.pdb
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\bin\Debug\net7.0\Fluentify.Models.pdb
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.AssemblyInfo.cs
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.csproj.CopyComplete
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\refint\Fluentify.Database.dll
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.pdb
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\Fluentify.Database.genruntimeconfig.cache
+\\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Database\obj\Debug\net7.0\ref\Fluentify.Database.dll
