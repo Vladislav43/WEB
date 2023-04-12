@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Database\\Fluentify.Database.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Database\\Fluentify.Database.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Core\\Fluentify.Core.csproj": {
+    "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Core\\Fluentify.Core.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj",
         "projectName": "Fluentify.Core",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Core\\Fluentify.Core.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj",
         "packagesPath": "C:\\Users\\Petrea\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Core\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\Fluentify.Models.csproj": {
-                "projectPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\Fluentify.Models.csproj"
+              "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.ApplicationInsights.WorkerService": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -55,6 +59,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -89,14 +97,14 @@
         }
       }
     },
-    "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Database\\Fluentify.Database.csproj": {
+    "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Database\\Fluentify.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Database\\Fluentify.Database.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Database\\Fluentify.Database.csproj",
         "projectName": "Fluentify.Database",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Database\\Fluentify.Database.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Database\\Fluentify.Database.csproj",
         "packagesPath": "C:\\Users\\Petrea\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Database\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +125,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Core\\Fluentify.Core.csproj": {
-                "projectPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Core\\Fluentify.Core.csproj"
+              "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj"
               }
             }
           }
@@ -178,14 +186,14 @@
         }
       }
     },
-    "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\Fluentify.Models.csproj": {
+    "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\Fluentify.Models.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj",
         "projectName": "Fluentify.Models",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\Fluentify.Models.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj",
         "packagesPath": "C:\\Users\\Petrea\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

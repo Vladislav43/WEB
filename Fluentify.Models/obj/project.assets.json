@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\Fluentify.Models.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj",
       "projectName": "Fluentify.Models",
-      "projectPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\Fluentify.Models.csproj",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj",
       "packagesPath": "C:\\Users\\Petrea\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Desktop\\Voievoda.Fluentify\\Fluentify.Models\\obj\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,23 +1,89 @@
 ﻿@page
 @model UserService
 @{
-    ViewData["Title"] = "Sign Up";
+    ViewData["Title"] = "Register";
 }
 
 <style type="text/css">
+    body {
+        background-color: #0A3D62;
+        color: #F5F5F5;
+    }
+
     .error {
-        color: aqua;
+        color: #1BBC9B;
         font-size: 10px;
     }
-    .form-group{
+
+    .form-group {
         margin-top: 20px;
     }
+
+    h2 {
+        color: #1BBC9B;
+    }
+
+    input[type=text], input[type=password], input[type=email] {
+        background-color: #F5F5F5;
+        border: none;
+        color: #0A3D62;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .SubmitButton {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        font-weight: 600;
+        padding: 1em 2em;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 0.5em;
+        transition: all 0.3s ease-in-out;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 123, 255, 0.4);
+        box-shadow: 0px 5px 40px -10px rgba(0, 123, 255, 0.4);
+        border: none;
+    }
+
+        .SubmitButton:hover {
+            background-color: #fff;
+            color: #007bff;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .SubmitButton span.btn-text {
+            display: block;
+        }
+
+        .SubmitButton span.btn-loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+
+        .SubmitButton.loading span.btn-text {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .SubmitButton.loading span.btn-loader {
+            display: block;
+        }
+
 </style>
 
 <br />
-<h2 class="text-center"><b>Create your profile</b></h2>
+<h2 class="text-center"><b><span style="color:#FFFFFF">Create your profile</span></b></h2>
 <br />
-
 <div class="container d-flex justify-content-center align-self-center">
     <form method="post">
         <div class="form-group row">
@@ -34,7 +100,7 @@
 
         <div class="form-group row">
             <div class="col-12">
-                <input asp-for="Users.Email" type="email" class="form-control" placeholder="example@gmail.com"/>
+                <input asp-for="Users.Email" type="email" class="form-control" placeholder="example@gmail.com" />
                 <span asp-validation-for="Users.Email" class="error"></span>
             </div>
         </div>

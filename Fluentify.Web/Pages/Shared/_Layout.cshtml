@@ -7,6 +7,47 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Fluentify.Web.styles.css" asp-append-version="true" />
+    <style>
+ 
+        body {
+            background: linear-gradient(45deg, #d29cff, #59d1ff, #ffd659, #ff59c1, #d29cff, #59d1ff, #ffd659);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+        
+        /* Style the navbar links */
+        .navbar-nav .nav-link {
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 1px yellow;
+            transition: all 0.2s ease;
+        }
+        
+        /* Add hover effect to navbar links */
+        .navbar-nav .nav-link:hover {
+            color: #ffc107;
+        }
+        
+        /* Style the footer */
+        .footer {
+            background-color: #f8f9fa;
+            padding: 1rem 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        /* Style the footer link */
+        .footer a {
+            color: #343a40;
+            transition: all 0.2s ease;
+        }
+        
+        /* Add hover effect to footer link */
+        .footer a:hover {
+            color: #ffc107;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,16 +70,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Users">Users</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Register">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Register">SignUp</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/WeatherForecast">WeatherForecast</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Login">Login</a>
                         </li>
                     </ul>
                 </div>

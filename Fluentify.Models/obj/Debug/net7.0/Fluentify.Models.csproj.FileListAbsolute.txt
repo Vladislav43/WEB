@@ -34,3 +34,15 @@ C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Models\obj\
 \\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\refint\Fluentify.Models.dll
 \\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.pdb
 \\Mac\Home\Desktop\Voievoda.Fluentify\Fluentify.Models\obj\Debug\net7.0\ref\Fluentify.Models.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.deps.json
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\bin\Debug\net7.0\Fluentify.Models.pdb
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.AssemblyInfo.cs
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\refint\Fluentify.Models.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\Fluentify.Models.pdb
+\\Mac\Home\Desktop\project\WEB\Fluentify.Models\obj\Debug\net7.0\ref\Fluentify.Models.dll
