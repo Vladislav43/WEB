@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Fluentify.Web.bundle.scp.css"
     },
     {
+      "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\kabina.css",
+      "PackagePath": "staticwebassets\\css\\kabina.css"
+    },
+    {
       "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\site.js",

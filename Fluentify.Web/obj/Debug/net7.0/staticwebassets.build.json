@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bjs/cCQLlQTfJjktUoc6VOHDf6JdGxj6wg0DwT518tM=",
+  "Hash": "w0eCZ2JKpTSmeUx9bDjdWsCgsTaDxhPBGlEEblv4XnY=",
   "Source": "Fluentify.Web",
   "BasePath": "_content/Fluentify.Web",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Fluentify.Web.bundle.scp.css"
     },
     {
+      "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\kabina.css",
+      "SourceId": "Fluentify.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\",
+      "BasePath": "_content/Fluentify.Web",
+      "RelativePath": "css/kabina.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\kabina.css"
+    },
+    {
       "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\site.css",
       "SourceId": "Fluentify.Web",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\scripts.js",
+      "SourceId": "Fluentify.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\",
+      "BasePath": "_content/Fluentify.Web",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\site.js",
