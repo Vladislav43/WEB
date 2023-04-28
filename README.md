@@ -28,3 +28,9 @@ Implement a list of people whom the user follows and who also follow the current
 Implement a list of people who have read the user's posts. Status: ❎ 
 Implement a list of the user's posts. Status: ❎ 
 Implement a list of posts that the user has liked. Status: ❎
+# Lab 3
+1. 1)Validation added to registration(includes error window)
+   2)Hashing password
+2. Zhovanuk Olexandr
+3. <a href="https://github.com/fdsssawe/inkfinder" target="_blank">Telegram</a>
+
