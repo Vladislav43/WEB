@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Fluentify.Database.Interfaces;
 using Fluentify.Models.Database;
 using System.Text.RegularExpressions;
+using BCrypt.Net;
 
 namespace Fluentify.Database.Services
 {
@@ -28,17 +29,28 @@ namespace Fluentify.Database.Services
         {
             return await _dbContext.Set<Users>().AnyAsync(x => x.Email == email);
         }
+        public async Task<bool> EmailAndPasswordMatch(string email, string password)
+        {
+            var user = await _dbContext.Set<Users>().FirstOrDefaultAsync(x => x.Email == email);
+
+            if (user == null)
+            {
+                return false;
+            }
+
+            return BCrypt.Net.BCrypt.Verify(password, user.Password);
+        }
 
         public async Task SaveChanges()
         {
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<Users> Create(Users entity)
+        public async Task<Users> Create(Users user)
         {
-            var entityFromOb = await _dbContext.Set<Users>().AddAsync(entity);
+            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            var entityFromOb = await _dbContext.Set<Users>().AddAsync(user);
             await SaveChanges();
-
             return entityFromOb.Entity;
         }
 
@@ -51,6 +63,10 @@ namespace Fluentify.Database.Services
         public async Task<Users> GetById(int id)
         {
             return await _dbContext.Set<Users>().FirstOrDefaultAsync(x => x.Id == id);
+        }
+        public async Task<Users> GetByEmail(string email)
+        {
+            return await _dbContext.Set<Users>().FirstOrDefaultAsync(x => x.Email == email);
         }
 
         public async Task<Users> Update(Users entity)
