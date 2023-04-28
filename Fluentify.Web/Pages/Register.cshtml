@@ -92,7 +92,7 @@
                     <div class="input-group-prepend">
                         <div class="input-group-text">@@</div>
                     </div>
-                    <input asp-for="Users.Nickname" class="form-control" placeholder="Your nickname" />
+                    <input asp-for="Users.Nickname" class="form-control" placeholder="Your nickname" required />
                 </div>
                 <span asp-validation-for="Users.Nickname" class="error"></span>
             </div>
@@ -100,21 +100,21 @@
 
         <div class="form-group row">
             <div class="col-12">
-                <input asp-for="Users.Email" type="email" class="form-control" placeholder="example@gmail.com" />
+                <input asp-for="Users.Email" type="email" class="form-control" placeholder="example@gmail.com" required />
                 <span asp-validation-for="Users.Email" class="error"></span>
             </div>
         </div>
 
         <div class="form-group row">
             <div class="col-12">
-                <input asp-for="Users.Password" type="password" class="form-control" placeholder="Your password">
+                <input asp-for="Users.Password" type="password" class="form-control" placeholder="Your password" required>
                 <span asp-validation-for="Users.Password" class="error"></span>
             </div>
         </div>
 
         <div class="form-group row">
             <div class="col-12">
-                <input asp-for="Users.ConfirmPassword" type="password" class="form-control" placeholder="Confirm password">
+                <input asp-for="Users.ConfirmPassword" type="password" class="form-control" placeholder="Confirm password" required>
                 <span asp-validation-for="Users.ConfirmPassword" class="error"></span>
             </div>
         </div>
@@ -127,13 +127,19 @@
 
         <div class="form-group row">
             <div class="col-12">
-                <p class="text-center">If you already have an account, click <a href="/login">here</a></p>
+                <p class="text-center">If you already have an account, click <a href="/Users">here</a></p>
             </div>
         </div>
     </form>
 </div>
 
-        
+@if (!ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <p>Some data was not filled out correctly. Please review the form and try again.</p>
+    </div>
+}
+
 
 
 @section Scripts {
@@ -145,13 +151,26 @@
                     // If the form is invalid, trigger HTML5 validation
                     $(this).find(':submit').click();
                 } else {
-                    // If the form is valid, show success message and redirect to login page
-                    alert("You have successfully registered! Please log in to your account.");
-                    window.location.href = "/login";
+                    // Check if all fields are filled out
+                    var filledOut = true;
+                    $('input[type="text"], input[type="email"], input[type="password"]').each(function() {
+                        if($(this).val() === "") {
+                            filledOut = false;
+                            return false;
+                        }
+                    });
+                    if(!filledOut) {
+                        alert("Please fill out all fields correctly.");
+                    } else {
+                        // If the form is valid and all fields are filled out, show success message and redirect to login page
+                        alert("You have successfully registered! Please log in to your account.");
+                        window.location.replace("/Login");
+                    }
                 }
             });
         });
     </script>
-}
+} 
+
 
 

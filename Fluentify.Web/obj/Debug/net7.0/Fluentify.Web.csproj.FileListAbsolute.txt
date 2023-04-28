@@ -304,3 +304,10 @@ C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Web\bin\Deb
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\obj\Debug\net7.0\Fluentify.Web.pdb
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\obj\Debug\net7.0\Fluentify.Web.genruntimeconfig.cache
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\obj\Debug\net7.0\ref\Fluentify.Web.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\BCrypt.Net-Next.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\EntityFramework.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\NugetPackage.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\openstacknet.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\SimpleRESTServices.dll
