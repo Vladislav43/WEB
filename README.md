@@ -33,4 +33,5 @@ Implement a list of posts that the user has liked. Status: ❎
    2)Hashing password
 2. Zhovanuk Olexandr
 3. <a href="https://github.com/fdsssawe/inkfinder" target="_blank">My project</a>
+4. <a href="https://github.com/Vladislav43/WEB/pull/1" target="_blank">Pull request</a>
 
