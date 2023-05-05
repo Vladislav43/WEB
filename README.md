@@ -10,10 +10,13 @@ Contacts :<br/>
 # Stack
 The Voievoda project was developed using the following technologies:
 
- -  C# (53%)
- -  HTML (29.7%)
- -  CSS (16%)
- -  JavaScript (1.3%)
+ -  .NET - free, open-source, cross-platform framework for building modern apps and powerful cloud services.
+ -  Azure - cloud computing platform and a set of services provided by Microsoft for building, deploying, and managing applications and services through Microsoft-managed data centers.
+ -  Entity Framework - object-relational mapping (ORM) framework for .NET developers that enables them to work with databases using .NET objects, simplifying the process of data access and manipulation.
+ -  SQL Server - relational database management system (RDBMS) developed by Microsoft that uses SQL (Structured Query Language) to manage and manipulate data, including storing, querying, and retrieving data.
+ -  App Service - set of cloud-based services provided by Microsoft that enable developers and businesses to build, deploy, and manage applications and services in the cloud, including computing, storage, networking, databases, analytics, and more.
+ -  MSTest - unit testing framework for .NET developers that allows them to write and execute automated tests to ensure the correctness and reliability of their code.
+ -  NuGet packages - type of software package used in the Microsoft .NET ecosystem, containing compiled code and other resources, and are used by developers to easily add functionality to their projects and share code between teams.
  -  <a href="https://myprojec.azurewebsites.net/" target="_blank">Deployed project</a>
 
 ### How to run a project on localhost 
