@@ -14,7 +14,7 @@ The Voievoda project was developed using the following technologies:
  -  HTML (29.7%)
  -  CSS (16%)
  -  JavaScript (1.3%)
-<a href="https://myprojec.azurewebsites.net/" target="_blank">Deployed project</a>
+ -  <a href="https://myprojec.azurewebsites.net/" target="_blank">Deployed project</a>
 
 ### How to run a project on localhost 
 Instructions for compiling the project locally from GitHub:
