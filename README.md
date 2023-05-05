@@ -1,5 +1,5 @@
 # Voievoda
-### Project for 'Web Technology' course in Lviv National University of Ivan Franko 
+### Welcome to the Voievoda project, a web application for interactive math learning for students of all levels. This project was developed as part of the "Web Technology" course at Lviv National University of Ivan Franko by Vladislav Voievoda.
 "Math Mastery: Interactive Math Learning for Students of All Levels".<br/>
 by Vladislav Voievoda
 
@@ -8,7 +8,12 @@ Contacts :<br/>
 <a href="https://t.me/NiVlad2" target="_blank">Telegram</a>
 
 # Stack
+The Voievoda project was developed using the following technologies:
 
+ -  C# (53%)
+ -  HTML (29.7%)
+ -  CSS (16%)
+ -  JavaScript (1.3%)
 <a href="https://myprojec.azurewebsites.net/" target="_blank">Deployed project</a>
 
 ### How to run a project on localhost 
