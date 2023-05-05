@@ -1,33 +1,72 @@
-# Task Status:
-✅ - Done
-❇️ - In Progres
-s ❎ - Not Started
-# Tasks:
-# ❇️ Azure Deployment
-Initial deployment of the project. Status: ✅ 
-Hide database connection string. Status: ✅ 
-Implement logging and Application Insights. Status: ✅ 
-# ❇️ Registration Page
-Create a CreateUserRequest class. Status: ✅ 
-Implement the RegisterUser feature using Razor Pages. Status: ✅ 
-Implement input validation (e.g. check if the user has entered the correct regex for name, username, email, and password; and if the confirm password is similar to the password). Status: ✅ 
-Implement input validation (e.g. check if the information is already in use, such as "User with current email is already signed up"). Status: ✅ Implement sign up with Google. Status: ❎ 
-Add a link to the Login Page ("Already signed up?"). Status: ❎
-# ❎ Login Page
-Create a LoginUserRequest class. Status: ❎ 
-Implement the LoginUser feature using Razor Pages. Status: ❎ 
-Implement input validation (e.g. check the user's email and password from the database). Status: ❎
-# ❎ Home Page & Features
-Implement post recommendations (recommendations of posts with hashtags you like and which posts people who liked similar posts also liked). Status: ❎ Implement friend recommendations. Status: ❎
-Implement popular hashtags. Status: ❎
-Implement user and post search functionality. Status: ❎
-Implement post count of likes, etc. Status: ❎
-# ❎ Profile Page
-Implement a list of followers. Status: ❎ 
-Implement a list of people whom the user follows and who also follow the current person. Status: ❎
-Implement a list of people who have read the user's posts. Status: ❎ 
-Implement a list of the user's posts. Status: ❎ 
-Implement a list of posts that the user has liked. Status: ❎
+# Voievoda
+### Project for 'Web Technology' course in Lviv National University of Ivan Franko 
+"Math Mastery: Interactive Math Learning for Students of All Levels".<br/>
+by Vladislav Voievoda
+
+Contacts :<br/>
+<a href="mailto:insagramerr@gmail.com">Email</a><br/>
+<a href="https://t.me/NiVlad2" target="_blank">Telegram</a>
+
+# Stack
+
+<a href="https://myprojec.azurewebsites.net/" target="_blank">Deployed project</a>
+
+### How to run a project on localhost 
+Instructions for compiling the project locally from GitHub:
+
+ -  Clone the repository using the command: `git clone https://github.com/Vladislav43/WEB.git`
+ -  Navigate to the cloned project folder using the command: `cd WEB`
+ -  Make sure you have the .NET runtime environment installed on your computer. If you don't have .NET on your computer, you can download it from the official Microsoft website: `https://dotnet.microsoft.com/download`
+ -  Open the command prompt and enter the command: `dotnet build` This command will build the project and check if everything is set up correctly.
+ -  If everything goes well, start the web server by executing the command: `dotnet run`
+ -  Open your web browser and go to `http://localhost:5000/`. You should see the home page of the web application.
+ -  To run the application on a local server, you need to install the dependency packages. To do this, navigate to the WEB project folder and execute the command: `npm install`.
+ -  If you need to make changes to the project, execute the command: `git pull` to get the latest version from GitHub.
+
+
+1.  ### Authorization
+    
+    - [x]
+
+
+
+
+2.  ### API implementation
+    
+- [x]
+- [x]
+- [x]
+- [x]
+- [x]
+
+3. ### Main functionality
+- [x]
+- [x]
+- [x]
+- [x]
+
+4. ### Frontend
+    
+- [x]
+- [x]
+- [x]
+- [x]
+- [x]
+- [x]
+
+5. ### Database
+- [x]
+- [x]
+- [x]
+- [x]
+    
+6. ### Tests
+- [x]
+- [x]
+- [x]
+
+
+
 # Lab 3
 1. 1)Validation added to registration(includes error window)
    2)Hashing password
