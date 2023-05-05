@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Fluentify.Web.bundle.scp.css"
     },
     {
+      "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\.DS_Store",
+      "PackagePath": "staticwebassets\\.DS_Store"
+    },
+    {
       "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\kabina.css",
       "PackagePath": "staticwebassets\\css\\kabina.css"
     },
