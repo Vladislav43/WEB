@@ -311,3 +311,12 @@ C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Web\bin\Deb
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\NugetPackage.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\openstacknet.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\SimpleRESTServices.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Azure.KeyVault.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Azure.KeyVault.WebKey.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Azure.Services.AppAuthentication.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.Azure.dll

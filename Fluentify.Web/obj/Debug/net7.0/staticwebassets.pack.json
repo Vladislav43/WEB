@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\css\\kabina.css"
     },
     {
+      "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\login_2.js",
+      "PackagePath": "staticwebassets\\js\\login_2.js"
     },
     {
       "Id": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\scripts.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aprxWWP0FnROH2D+PB5MENcCi/UITAXM9hQdZG98UKY=",
+  "Hash": "5WVt0cMCYaUjKm9DK3i3YjmGYwhxCBIpCA3qDZJ6psw=",
   "Source": "Fluentify.Web",
   "BasePath": "_content/Fluentify.Web",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\css\\kabina.css"
     },
     {
+      "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\login.css",
+      "SourceId": "Fluentify.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\",
+      "BasePath": "_content/Fluentify.Web",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
       "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\site.css",
       "SourceId": "Fluentify.Web",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\login_2.js",
+      "SourceId": "Fluentify.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\",
+      "BasePath": "_content/Fluentify.Web",
+      "RelativePath": "js/login_2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login_2.js"
     },
     {
       "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\js\\scripts.js",
