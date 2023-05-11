@@ -28,8 +28,8 @@ namespace Fluentify.Web
                 })
                 .AddGoogle(options =>
                 {
-                    options.ClientId = "YOUR_CLIENT_ID";
-                    options.ClientSecret = "YOUR_CLIENT_SECRET";
+                    options.ClientId = "744173190005-rolrcccpq92sal5p6qjn2bg74vvrr1k9.apps.googleusercontent.com";
+                    options.ClientSecret = "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";
                 });
 
             services.AddMvc();
