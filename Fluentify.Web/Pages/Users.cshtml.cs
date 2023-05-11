@@ -43,7 +43,7 @@ namespace Fluentify.Web.Pages
 
         public async Task<IActionResult> OnGetGoogleLoginAsync(string returnUrl = "/")
         {
-            var redirectUrl = Url.Page("/Login", pageHandler: "GoogleCallback", values: new { returnUrl });
+            var redirectUrl = Url.Page("/usr_kab", pageHandler: "GoogleCallback", values: new { returnUrl });
             var properties = _signInManager.ConfigureExternalAuthenticationProperties("Google", redirectUrl);
             return Challenge(properties, "Google");
         }
