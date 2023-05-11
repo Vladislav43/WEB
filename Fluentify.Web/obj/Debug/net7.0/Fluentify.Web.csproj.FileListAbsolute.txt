@@ -234,9 +234,7 @@ C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Web\bin\Deb
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.DiagnosticAdapter.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
-\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.PlatformAbstractions.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -320,3 +318,4 @@ C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Web\bin\Deb
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.Azure.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.ApplicationInsights.AspNetCore.dll
