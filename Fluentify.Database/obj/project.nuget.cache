@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kIAuzTjtyRR8SdAo1tbZrrlSs/8Ns0eK0Ccpm2nkO4Kc8o3Fpi3zOh2kDCklVdZop6WgQjxcNdvCqS7Wt6T5Gg==",
+  "dgSpecHash": "I3yhpXffXevfjk623jicUusk149vKLx7GGLzAlb0F4VBHGaqRAzXW5aw1Oc/r+Quq3SJRFTDe7z4+6KURXxpGg==",
   "success": true,
   "projectFilePath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Database\\Fluentify.Database.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Petrea\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Petrea\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
@@ -18,7 +20,7 @@
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights.windowsserver.telemetrychannel\\2.15.0\\microsoft.applicationinsights.windowsserver.telemetrychannel.2.15.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights.workerservice\\2.15.0\\microsoft.applicationinsights.workerservice.2.15.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",

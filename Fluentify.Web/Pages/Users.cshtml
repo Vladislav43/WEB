@@ -1,140 +1,61 @@
 ﻿@page
-@model Fluentify.Web.Pages.LoginUserModel
+@using Fluentify.ViewModels;
+@model LogInViewModel
 @{
-    ViewData["Title"] = "Sign In";
+    ViewBag.Title = "Sign In";
 }
 
-<style type="text/css">
-    body {
-        background-color: #ffffff;
-        color: #0A3D62;
-        font-family: Arial, sans-serif;
-    }
-
-    .error {
-        color: red;
-        font-size: 10px;
-    }
-
-    .form-group {
-        margin-top: 20px;
-    }
-
-    .SubmitButton {
-        position: relative;
-        z-index: 1;
-        display: inline-block;
-        background-color: #007bff;
-        color: #fff;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 0.15em;
-        font-weight: 600;
-        padding: 1em 2em;
-        margin: 0 auto;
-        overflow: hidden;
-        border-radius: 0.5em;
-        transition: all 0.3s ease-in-out;
-        -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 123, 255, 0.4);
-        box-shadow: 0px 5px 40px -10px rgba(0, 123, 255, 0.4);
-        border: none;
-    }
-
-        .SubmitButton:hover {
-            background-color: #fff;
-            color: #007bff;
-            -webkit-box-shadow: none;
-            box-shadow: none;
-        }
-
-        .SubmitButton span.btn-text {
-            display: block;
-        }
-
-        .SubmitButton span.btn-loader {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: none;
-        }
-
-        .SubmitButton.loading span.btn-text {
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        .SubmitButton.loading span.btn-loader {
-            display: block;
-        }
-
-    .CloneTwitterTitle {
-        font-size: 36px;
-        font-weight: 700;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    form {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-
-    h2 {
-        font-size: 24px;
-        font-weight: 600;
-        margin-bottom: 15px;
-    }
-
-    a {
-        color: #007bff;
-    }
-</style>
-
-<br />
-<h2 class="CloneTwitterTitle">Sign In</h2>
-<br />
-<div class="container d-flex justify-content-center align-self-center">
-    <form method="post">
-        <div class="form-group row">
-            <div class="col-12">
-                <input asp-for="User.EmailAddress" type="email" class="form-control" placeholder="example@gmail.com" />
-                <span asp-validation-for="User.EmailAddress" class="error"></span>
+<div class="row">
+    <div class="col-md-6">
+        <h1> Account Login</h1>
+        <hr />
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
             </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-12">
-                <input asp-for="User.Password" type="password" class="form-control" placeholder="Password">
-                <span asp-validation-for="User.Password" class="error"></span>
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
             </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-12">
-                <button type="submit" class="SubmitButton form-control">
-                    <span class="btn-text">Login</span>
-                    <span class="btn-loader">
-                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                        Loading...
-                    </span>
-                </button>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label asp-for="RememberMe">
+                        <input asp-for="RememberMe" />
+                        @Html.DisplayNameFor(m => m.RememberMe)
+                    </label>
+                </div>
             </div>
-        </div>
-
-
-        <div class="form-group row">
-            <div class="col-12">
-                <a href="/Register">Don't have an account? Sign Up</a>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <div>
+                <a asp-action="ForgotPassword">Forgot Password?</a>
             </div>
-        </div>
+        </form>
+    </div>
 
-    </form>
-    <<div class="form-group row mt-4">
-        <div class="col-12 text-center">
-            <hr>
-            <button class="btn btn-lg btn-outline-secondary" type="button" onclick="window.open('@Url.Page("usr_kab", "GoogleLogin", new { returnUrl = ViewData["ReturnUrl"] })', 'Google Login'); return false;">
-                <i class="fab fa-google mr-2"></i>Sign in with Google
-            </button>
-        </div>
+    <div class="col-md-6">
+        <h1>External Login</h1>
+        <hr />
+        @if (Model?.ExternalLogins?.Count > 0)
+        {
+            <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+                <div>
+                    @foreach (var provider in Model.ExternalLogins)
+                    {
+                        <button type="submit" class="btn btn-primary" style="width:auto"
+                                name="provider" value="@provider.Name"
+                                title="Login using your @provider.DisplayName account">
+                            @provider.DisplayName
+                        </button>
+                    }
+                </div>
+            </form>
+        }
+        else
+        {
+            <div>No external logins configured</div>
+        }
     </div>

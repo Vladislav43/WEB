@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dyU3PL5cgYzEdW3MKtwqv6ajVoTHdR1AYgJfT8c2v60w58fJwhATvbDr3j45n0iiOVOZStsYZAdu61jZ4p17Jg==",
+  "dgSpecHash": "5M/qYhJ4ZKEr5grqmD1Q9W4QJ3rw57lP+irGYd/vv9BqGheVJKI3S1kbUgq+FyYRCEdxIO6S4wEbIo+bcb1Img==",
   "success": true,
   "projectFilePath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Petrea\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Petrea\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0\\microsoft.applicationinsights.2.15.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights.dependencycollector\\2.15.0\\microsoft.applicationinsights.dependencycollector.2.15.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights.eventcountercollector\\2.15.0\\microsoft.applicationinsights.eventcountercollector.2.15.0.nupkg.sha512",
@@ -11,6 +13,7 @@
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights.windowsserver\\2.15.0\\microsoft.applicationinsights.windowsserver.2.15.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights.windowsserver.telemetrychannel\\2.15.0\\microsoft.applicationinsights.windowsserver.telemetrychannel.2.15.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.applicationinsights.workerservice\\2.15.0\\microsoft.applicationinsights.workerservice.2.15.0.nupkg.sha512",
+    "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\1.0.0\\microsoft.extensions.caching.abstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.extensions.caching.memory\\1.0.0\\microsoft.extensions.caching.memory.1.0.0.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

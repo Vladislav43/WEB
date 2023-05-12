@@ -17,5 +17,9 @@ namespace Fluentify.Models.Frontend
         [Required(ErrorMessage = "Password is required.")]
         [DataType(DataType.Password)]
         public string? Password { get; set; }
+
+        // Google authentication properties
+        public string? GoogleEmail { get; set; }
+        public string? GoogleToken { get; set; }
     }
 }

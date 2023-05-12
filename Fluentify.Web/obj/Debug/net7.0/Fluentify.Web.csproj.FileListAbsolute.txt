@@ -319,3 +319,16 @@ C:\Users\Dell Latitude E5570\source\repos\Dzirba.Fluentify\Fluentify.Web\bin\Deb
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.Azure.dll
 \\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.ApplicationInsights.AspNetCore.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\AutoMapper.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\TourmalineCore.AspNetCore.JwtAuthentication.Core.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Web\bin\Debug\net7.0\TourmalineCore.AspNetCore.JwtAuthentication.Identity.dll

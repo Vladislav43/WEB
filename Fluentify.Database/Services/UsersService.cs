@@ -7,6 +7,8 @@ using Fluentify.Database.Interfaces;
 using Fluentify.Models.Database;
 using System.Text.RegularExpressions;
 using BCrypt.Net;
+using Fluentify.Database.Services;
+using net.openstack.Core.Domain;
 
 namespace Fluentify.Database.Services
 {
@@ -90,5 +92,11 @@ namespace Fluentify.Database.Services
             _dbContext.Dispose();
             _disposed = true;
         }
+
+        public Task Create(User user)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
+
