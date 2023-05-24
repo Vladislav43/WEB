@@ -82,3 +82,8 @@ Instructions for compiling the project locally from GitHub:
 3. <a href="https://github.com/fdsssawe/inkfinder" target="_blank">My project</a>
 4. <a href="https://github.com/Vladislav43/WEB/pull/1" target="_blank">Pull request</a>
 
+
+# Lab 4
+- Reviewer: Oleh Suvorov
+- Oleh's [project](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone)
+- [Pull request](https://github.com/plxgwalker/WEB/pull/1) with full review of code
