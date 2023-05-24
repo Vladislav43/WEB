@@ -1,23 +1,89 @@
 ﻿@page
 @model UserService
 @{
-    ViewData["Title"] = "Sign Up";
+    ViewData["Title"] = "Register";
 }
 
 <style type="text/css">
+    body {
+        background-color: #0A3D62;
+        color: #F5F5F5;
+    }
+
     .error {
-        color: aqua;
+        color: #1BBC9B;
         font-size: 10px;
     }
-    .form-group{
+
+    .form-group {
         margin-top: 20px;
     }
+
+    h2 {
+        color: #1BBC9B;
+    }
+
+    input[type=text], input[type=password], input[type=email] {
+        background-color: #F5F5F5;
+        border: none;
+        color: #0A3D62;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .SubmitButton {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        font-weight: 600;
+        padding: 1em 2em;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 0.5em;
+        transition: all 0.3s ease-in-out;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 123, 255, 0.4);
+        box-shadow: 0px 5px 40px -10px rgba(0, 123, 255, 0.4);
+        border: none;
+    }
+
+        .SubmitButton:hover {
+            background-color: #fff;
+            color: #007bff;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .SubmitButton span.btn-text {
+            display: block;
+        }
+
+        .SubmitButton span.btn-loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+
+        .SubmitButton.loading span.btn-text {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .SubmitButton.loading span.btn-loader {
+            display: block;
+     }
+
 </style>
 
 <br />
-<h2 class="text-center"><b>Create your profile</b></h2>
+<h2 class="text-center"><b><span style="color:#FFFFFF">Create your profile</span></b></h2>
 <br />
-
 <div class="container d-flex justify-content-center align-self-center">
     <form method="post">
         <div class="form-group row">
@@ -26,7 +92,7 @@
                     <div class="input-group-prepend">
                         <div class="input-group-text">@@</div>
                     </div>
-                    <input asp-for="Users.Nickname" class="form-control" placeholder="Your nickname" />
+                    <input asp-for="Users.Nickname" class="form-control" placeholder="Your nickname" required />
                 </div>
                 <span asp-validation-for="Users.Nickname" class="error"></span>
             </div>
@@ -34,21 +100,21 @@
 
         <div class="form-group row">
             <div class="col-12">
-                <input asp-for="Users.Email" type="email" class="form-control" placeholder="example@gmail.com"/>
+                <input asp-for="Users.Email" type="email" class="form-control" placeholder="example@gmail.com" required />
                 <span asp-validation-for="Users.Email" class="error"></span>
             </div>
         </div>
 
         <div class="form-group row">
             <div class="col-12">
-                <input asp-for="Users.Password" type="password" class="form-control" placeholder="Your password">
+                <input asp-for="Users.Password" type="password" class="form-control" placeholder="Your password" required>
                 <span asp-validation-for="Users.Password" class="error"></span>
             </div>
         </div>
 
         <div class="form-group row">
             <div class="col-12">
-                <input asp-for="Users.ConfirmPassword" type="password" class="form-control" placeholder="Confirm password">
+                <input asp-for="Users.ConfirmPassword" type="password" class="form-control" placeholder="Confirm password" required>
                 <span asp-validation-for="Users.ConfirmPassword" class="error"></span>
             </div>
         </div>
@@ -58,5 +124,52 @@
                 <input type="submit" class="btn btn-dark rounded-pill form-control" asp-page-handler="Submit" />
             </div>
         </div>
+
+        <div class="form-group row">
+            <div class="col-12">
+                <p class="text-center">If you already have an account, click <a href="/Users">here</a></p>
+            </div>
+        </div>
     </form>
 </div>
+
+@if (!ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <p>Some data was not filled out correctly. Please review the form and try again.</p>
+    </div>
+}
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('form').submit(function () {
+                // Check if the form is valid
+                if (this.checkValidity() === false) {
+                    // If the form is invalid, trigger HTML5 validation
+                    $(this).find(':submit').click();
+                } else {
+                    // Check if all fields are filled out
+                    var filledOut = true;
+                    $('input[type="text"], input[type="email"], input[type="password"]').each(function() {
+                        if($(this).val() === "") {
+                            filledOut = false;
+                            return false;
+                        }
+                    });
+                    if(!filledOut) {
+                        alert("Please fill out all fields correctly.");
+                    } else {
+                        // If the form is valid and all fields are filled out, show success message and redirect to login page
+                        alert("You have successfully registered! Please log in to your account.");
+                        window.location.replace("/Login");
+                    }
+                }
+            });
+        });
+    </script>
+} 
+
+
