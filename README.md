@@ -86,4 +86,4 @@ Instructions for compiling the project locally from GitHub:
 # Lab 4
 - Reviewer: Oleh Suvorov
 - Oleh's [project](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone)
-- [Pull request](https://github.com/Vladislav43/WEB/pull/2#issue-1724575020) with full review of code
+- [Pull request](https://github.com/plxgwalker/WEB/pull/1) with full review of code
