@@ -1,49 +1,61 @@
 ﻿@page
-@model UsersModel
+@using Fluentify.ViewModels;
+@model LogInViewModel
 @{
-    ViewData["Title"] = "Users";
+    ViewBag.Title = "Sign In";
 }
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(user => user.Users[0].Id)
-            </th>
-            <th>
-                @Html.DisplayNameFor(user => user.Users[0].Nickname)
-            </th>
-            <th>
-                @Html.DisplayNameFor(user => user.Users[0].Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(user => user.Users[0].Password)
-            </th>
-            <th>
-                @Html.DisplayNameFor(user => user.Users[0].RegDate)
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model.Users)
+<div class="row">
+    <div class="col-md-6">
+        <h1> Account Login</h1>
+        <hr />
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label asp-for="RememberMe">
+                        <input asp-for="RememberMe" />
+                        @Html.DisplayNameFor(m => m.RememberMe)
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <div>
+                <a asp-action="ForgotPassword">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <h1>External Login</h1>
+        <hr />
+        @if (Model?.ExternalLogins?.Count > 0)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(userItem => user.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(userItem => user.Nickname)
-                </td>
-                <td>
-                    @Html.DisplayFor(userItem => user.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(userItem => user.Password)
-                </td>
-                <td>
-                    @Html.DisplayFor(userItem => user.RegDate)
-                </td>
-            </tr>
+            <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+                <div>
+                    @foreach (var provider in Model.ExternalLogins)
+                    {
+                        <button type="submit" class="btn btn-primary" style="width:auto"
+                                name="provider" value="@provider.Name"
+                                title="Login using your @provider.DisplayName account">
+                            @provider.DisplayName
+                        </button>
+                    }
+                </div>
+            </form>
         }
-    </tbody>
-</table>
+        else
+        {
+            <div>No external logins configured</div>
+        }
+    </div>
