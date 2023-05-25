@@ -32,46 +32,36 @@ Instructions for compiling the project locally from GitHub:
  -  If you need to make changes to the project, execute the command: `git pull` to get the latest version from GitHub.
 
 
-1.  ### Authorization
-    
-    - [x]
+1. Create base structure for project 
+      - [x] Done
+2. Create base services
+      - [x] Done
+3. Deploy project via Azure
+      - [x] Initial deploy
+      - [x] Hide connection string
+      - [x] CI/CD
+      - [x] Application Insights
+4. User login system
+      - [ ] Done
+5. Find out main functions for website
+      - [ ] Done
+6. Implement like-based sorting algorithm
+      - [ ] Done
+7. Features creation
+      - [ ] Done
+8. Bug fixing
+      - [ ] Done
+9. UNIT TEST
+      - [ ] Done
 
 
 
 
-2.  ### API implementation
-    
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
 
-3. ### Main functionality
-- [x]
-- [x]
-- [x]
-- [x]
 
-4. ### Frontend
-    
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
 
-5. ### Database
-- [x]
-- [x]
-- [x]
-- [x]
-    
-6. ### Tests
-- [x]
-- [x]
-- [x]
+
+
 
 
 
