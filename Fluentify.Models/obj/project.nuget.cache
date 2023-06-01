@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6SL+HNhMlE2+U8z6NU06p6SRtoFR0mzvHA0PUoV3iKAWIcrMNw7zyC9l1Fy7avI3wjqq0rYWWmKGO1jGFmusKA==",
+  "dgSpecHash": "HN1SnL8R/mXXcFoKo0UY+JXb2mKizFUot+gWKQNFTyfZo+pGSFuvZSD3vaxcXyUJxqhw+QWYja2QBTCgUph4hQ==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj",
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\WEB-main\\Fluentify.Models\\Fluentify.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

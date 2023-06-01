@@ -32,46 +32,36 @@ Instructions for compiling the project locally from GitHub:
  -  If you need to make changes to the project, execute the command: `git pull` to get the latest version from GitHub.
 
 
-1.  ### Authorization
-    
-    - [x]
+1. Create base structure for project 
+      - [x] Done
+2. Create base services
+      - [x] Done
+3. Deploy project via Azure
+      - [x] Initial deploy
+      - [x] Hide connection string
+      - [x] CI/CD
+      - [x] Application Insights
+4. User login system
+      - [ ] Done
+5. Find out main functions for website
+      - [ ] Done
+6. Implement like-based sorting algorithm
+      - [ ] Done
+7. Features creation
+      - [ ] Done
+8. Bug fixing
+      - [ ] Done
+9. UNIT TEST
+      - [ ] Done
 
 
 
 
-2.  ### API implementation
-    
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
 
-3. ### Main functionality
-- [x]
-- [x]
-- [x]
-- [x]
 
-4. ### Frontend
-    
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
 
-5. ### Database
-- [x]
-- [x]
-- [x]
-- [x]
-    
-6. ### Tests
-- [x]
-- [x]
-- [x]
+
+
 
 
 
@@ -82,3 +72,12 @@ Instructions for compiling the project locally from GitHub:
 3. <a href="https://github.com/fdsssawe/inkfinder" target="_blank">My project</a>
 4. <a href="https://github.com/Vladislav43/WEB/pull/1" target="_blank">Pull request</a>
 
+
+# Lab 4
+- Reviewer: Oleh Suvorov
+- Oleh's [project](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone)
+- [Pull request](https://github.com/plxgwalker/WEB/pull/1) with full review of code
+# Lab 4
+- Reviewer: Volodymyr Kozariz
+- Volodya`s [project](https://github.com/odvova/Edelveis)
+- [Pull request](https://github.com/odvova/WEB/pull/1) with full review of code
