@@ -1,9 +1,170 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    body {
+        background-color: #f2f2f2;
+    }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>User Id : @ViewData["UserID"]</p>
+    .container {
+        margin-top: 50px;
+    }
+
+    .display-4 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    p {
+        color: #777;
+    }
+
+    .btn-primary {
+        background-color: #e60000;
+        border-color: #e60000;
+        font-weight: bold;
+    }
+
+        .btn-primary:hover {
+            background-color: #b30000;
+            border-color: #b30000;
+        }
+
+    .card {
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .card-text {
+        color: #777;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center">Mathematical Trainer</h2>
+    <p class="text-center">Choose a difficulty level to start the test:</p>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 1</h5>
+                    <p class="card-text">Easy</p>
+                    <p class="card-text">Number of Questions: 10</p>
+                    <a href="/Test/Start?level=1" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 2</h5>
+                    <p class="card-text">Medium</p>
+                    <p class="card-text">Number of Questions: 15</p>
+                    <a href="/Test/Start?level=2" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 3</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 4</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 5</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 6</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 7</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 8</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 9</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Level 10</h5>
+                    <p class="card-text">Hard</p>
+                    <p class="card-text">Number of Questions: 20</p>
+                    <a href="/Test/Start?level=3" class="btn btn-primary">Start Test</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <p>User Id: @ViewData["UserID"]</p>
+    </div>
 </div>

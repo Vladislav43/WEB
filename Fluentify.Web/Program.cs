@@ -5,12 +5,13 @@ using Fluentify.Web.Areas.Identity.Data;
 using Fluentify.Web.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-//var configuration = builder.Configuration;
-//builder.Services.AddAuthentication().AddGoogle(googleOptions =>
-//{
-//    googleOptions.ClientId = configuration["ClientId"];
-//    googleOptions.ClientSecret = configuration["ClientSecret"];
-//});
+var services = builder.Services;
+var configuration = builder.Configuration;
+services.AddAuthentication().AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId = configuration["Authentication:Google:ClientId"];
+    googleOptions.ClientSecret = configuration["Authentication:Google:ClientSecret"];
+});
 var connectionString = builder.Configuration.GetConnectionString("StoreDatabase") ?? throw new InvalidOperationException("Connection string 'StoreDatabase' not found.");
 
 builder.Services.AddDbContext<FluentifyDbContext>(options => options.UseSqlServer(connectionString));

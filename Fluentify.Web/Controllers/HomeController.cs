@@ -19,7 +19,7 @@ namespace Fluentify.Web.Controllers
             _logger = logger;
             _userManager = userManager;
         }
-
+        [Authorize]
         public IActionResult Index()
         {
             ViewData["UserID"] = _userManager.GetUserId(User);

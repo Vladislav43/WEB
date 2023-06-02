@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bRoLrbZ+9AYjKFujpC6R2uz4ATB9xD6ts+atBt6deeki7+JWAilnNNlITEuq6EFd+SGT9+3LtV9Bru1j5wvXWg==",
+  "dgSpecHash": "9UxsYFFTC/duwuX+C1yRDo9FxyHWOVLh3iMG4+9c3OC2WsyuStB7XGL9ke9M9iFfsTREi3C8t4N/0kt0391ccA==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Desktop\\WEB-main\\Fluentify.Web\\Fluentify.Web.csproj",
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\Fluentify.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Petrea\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Petrea\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

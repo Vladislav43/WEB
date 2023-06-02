@@ -7354,11 +7354,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\WEB-main\\Fluentify.Core\\Fluentify.Core.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj",
       "projectName": "Fluentify.Core",
-      "projectPath": "\\\\Mac\\Home\\Desktop\\WEB-main\\Fluentify.Core\\Fluentify.Core.csproj",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\Fluentify.Core.csproj",
       "packagesPath": "C:\\Users\\Petrea\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Desktop\\WEB-main\\Fluentify.Core\\obj\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7379,8 +7379,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "\\\\Mac\\Home\\Desktop\\WEB-main\\Fluentify.Models\\Fluentify.Models.csproj": {
-              "projectPath": "\\\\Mac\\Home\\Desktop\\WEB-main\\Fluentify.Models\\Fluentify.Models.csproj"
+            "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Models\\Fluentify.Models.csproj"
             }
           }
         }
