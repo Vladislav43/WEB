@@ -5,9 +5,8 @@ using Fluentify.Web.Areas.Identity.Data;
 using Fluentify.Web.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-var services = builder.Services;
 var configuration = builder.Configuration;
-services.AddAuthentication().AddGoogle(googleOptions =>
+builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
     googleOptions.ClientId = configuration["Authentication:Google:ClientId"];
     googleOptions.ClientSecret = configuration["Authentication:Google:ClientSecret"];
