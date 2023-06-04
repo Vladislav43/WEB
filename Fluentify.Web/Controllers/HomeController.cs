@@ -1,4 +1,5 @@
-﻿using Fluentify.Web.Areas.Identity.Data;
+﻿using Fluentify.Database.Services;
+using Fluentify.Web.Areas.Identity.Data;
 using Fluentify.Web.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -19,7 +20,6 @@ namespace Fluentify.Web.Controllers
             _logger = logger;
             _userManager = userManager;
         }
-        [Authorize]
         public IActionResult Index()
         {
             ViewData["UserID"] = _userManager.GetUserId(User);

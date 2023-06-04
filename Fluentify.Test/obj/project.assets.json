@@ -5484,6 +5484,7 @@
           "Microsoft.Extensions.Configuration.AzureKeyVault": "3.1.24",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.6",
           "Swashbuckle.AspNetCore": "6.5.0",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "TourmalineCore.AspNetCore.JwtAuthentication.Identity": "0.1.1"
         },
         "compile": {

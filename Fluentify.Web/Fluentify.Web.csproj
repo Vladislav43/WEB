@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>a2356a3f-e5e5-4965-8f73-a388fe6c2497</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/8ff73fa2-436d-4fd5-afa9-985fe0e353f9/resourceGroups/MYPROJECT/providers/microsoft.insights/components/myprojec</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.24" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
     <PackageReference Include="TourmalineCore.AspNetCore.JwtAuthentication.Identity" Version="0.1.1" />
   </ItemGroup>
 
