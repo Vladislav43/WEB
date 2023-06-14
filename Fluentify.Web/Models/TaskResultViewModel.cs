@@ -4,6 +4,7 @@ namespace Fluentify.Web.Models
 {
     public class TaskResultViewModel
     {
+
         [Display(Name = "Question")]
         public string Question { get; set; }
 

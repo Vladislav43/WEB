@@ -6,8 +6,13 @@ namespace Fluentify.Web.Models
     public class TestViewModel
     {
         public int CurrentTaskIndex { get; set; }
-        public List<MathTask> MathTasks { get; set; }
+            public List<MathTask> MathTasks { get; set; }
         public int Score { get; set; }
-        public string Answer { get; set; }
+    }
+
+    public class Task
+    {
+        public string Question { get; set; }
+        public string CorrectAnswer { get; set; }
     }
 }

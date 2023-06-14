@@ -7,7 +7,7 @@ namespace Fluentify.Web.Data
 {
     public class FluentifyDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<MathTask> Tasks { get; set; }
+        public DbSet<Fluentify.Web.Areas.Identity.Data.MathTask> Tasks { get; set; }
 
         public FluentifyDbContext(DbContextOptions<FluentifyDbContext> options)
             : base(options)

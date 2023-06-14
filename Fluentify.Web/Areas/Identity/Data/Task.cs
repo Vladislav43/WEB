@@ -13,5 +13,7 @@ namespace Fluentify.Web.Areas.Identity.Data
         public string Question { get; set; }
 
         public string CorrectAnswer { get; set; }
+
+        public int TaskScore { get; set; }
     }
 }

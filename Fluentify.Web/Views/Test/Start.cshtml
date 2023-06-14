@@ -1,85 +1,197 @@
 ﻿@model Fluentify.Web.Models.TestViewModel
 
 <style>
-    .test-title {
-        font-size: 32px;
-        font-weight: bold;
-        color: #333;
-        text-align: center;
+    .test-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .test-question {
+        position: relative;
+        width: calc(50% - 10px);
         margin-bottom: 20px;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
-    .question-number {
-        font-size: 24px;
-        font-weight: bold;
-        color: #666;
-        margin-bottom: 10px;
+        .test-question.correct {
+            border: 2px solid green;
+        }
+
+        .test-question.incorrect {
+            border: 2px solid red;
+        }
+
+        .test-question h2 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        .test-question p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .test-question label {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .test-question input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+    .validation-message {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        font-size: 12px;
+        color: red;
     }
 
-    .question-text {
-        font-size: 20px;
-        color: #333;
-        margin-bottom: 20px;
+        .validation-message.correct {
+            color: green;
+        }
+
+    #submit-test-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
 
-    .error-message {
-        color: #ff0000;
-        margin-bottom: 10px;
-    }
-
-    .answer-input {
-        width: 300px;
-        height: 40px;
-        padding: 5px;
-        font-size: 16px;
-    }
-
-    .submit-button {
-        background-color: #4caf50;
-        color: #fff;
-        border: none;
+    #submit-test {
         padding: 10px 20px;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
         cursor: pointer;
     }
 
-    .completed-message {
+        #submit-test:hover {
+            background-color: #0056b3;
+        }
+
+    #timer {
+        position: absolute;
+        top: 60px;
+        right: 20px;
         font-size: 24px;
-        font-weight: bold;
-        color: #333;
-        text-align: center;
-        margin-top: 20px;
     }
 </style>
 
-<h1 class="test-title">Початок тесту</h1>
+<h1 style="text-align: center;">Тестування</h1>
 
-@if (Model.CurrentTaskIndex >= 0 && Model.CurrentTaskIndex < Model.MathTasks.Count)
+@if (Model.MathTasks != null && Model.MathTasks.Count > 0)
 {
-    <p class="question-number">Питання №@Model.CurrentTaskIndex</p>
-    <p class="question-text">@Model.MathTasks[Model.CurrentTaskIndex].Question</p>
+    <div class="test-container">
+        @for (int i = 0; i < Model.MathTasks.Count; i++)
+        {
+            int questionNumber = i + 1;
+            var task = Model.MathTasks[i];
 
-    @if (TempData["ErrorMessage"] != null)
-    {
-        <div class="error-message">
-            @TempData["ErrorMessage"]
-        </div>
-    }
+            <div class="test-question">
+                <h2>Питання @questionNumber:</h2>
+                <p>@task.Question</p>
+                <label for="answer-@i">Відповідь:</label>
+                <input type="text" id="answer-@i" name="answer-@i" required />
+                <span class="validation-message" id="validation-message-@i"></span>
+            </div>
+        }
+    </div>
 
-    <form method="post" asp-action="Start">
-        <input type="hidden" asp-for="CurrentTaskIndex" />
-        <input type="hidden" asp-for="MathTasks" />
-        <input type="hidden" asp-for="Score" />
+    <div id="timer"></div>
 
-        <div>
-            <label>Введіть вашу відповідь:</label>
-            <input type="text" asp-for="Answer" class="answer-input" />
-        </div>
-
-        <button type="submit" class="submit-button">Відповісти</button>
-    </form>
+    <div id="submit-test-container">
+        <button type="submit" id="submit-test">Відправити тест</button>
+    </div>
 }
-else
-{
-    <p class="completed-message">Завершено!</p>
+
+@section scripts {
+    <script>
+        var minutes = 15;
+        var seconds = 0;
+
+        function startTimer() {
+            var timerElement = document.getElementById("timer");
+            var interval = setInterval(function () {
+                timerElement.textContent = minutes.toString().padStart(2, '0') + ":" + seconds.toString().padStart(2, '0');
+
+                if (minutes === 0 && seconds === 0) {
+                    clearInterval(interval);
+                    timerElement.textContent = "Час тесту завершено";
+
+                    // Виконати потрібні дії, коли час тесту закінчено
+                } else if (seconds === 0) {
+                    minutes--;
+                    seconds = 59;
+                } else {
+                    seconds--;
+                }
+            }, 1000);
+        }
+
+        startTimer();
+
+        document.getElementById("submit-test").addEventListener('click', function onClickSubmit() {
+            var allInputsFilled = true;
+            var answers = [];
+
+            for (var i = 0; i < @Model.MathTasks.Count; i++) {
+                var answerInput = document.getElementById("answer-" + i);
+                answers.push(answerInput.value);
+
+                if (!answerInput.value) {
+                    allInputsFilled = false;
+                    document.getElementById("validation-message-" + i).textContent = "Це поле обов'язкове.";
+                } else {
+                    document.getElementById("validation-message-" + i).textContent = "";
+                }
+            }
+
+            if (allInputsFilled) {
+                // Всі поля заповнені, можна відправити тест
+                // Отримайте відповіді змінними answers та виконайте потрібні дії
+                var correctAnswers = [
+        @foreach (var task in Model.MathTasks)
+        {
+            @Html.Raw($"'{task.CorrectAnswer}',")
+        }
+                        ];
+
+                var score = 0;
+                for (var i = 0; i < @Model.MathTasks.Count; i++) {
+                    var validationMessage = document.getElementById("validation-message-" + i);
+                    if (answers[i] === correctAnswers[i]) {
+                        score++;
+                        validationMessage.textContent = "Правильно!";
+                        validationMessage.classList.add("correct");
+                        validationMessage.classList.remove("incorrect");
+                        document.getElementById("answer-" + i).classList.add("correct");
+                        document.getElementById("answer-" + i).classList.remove("incorrect");
+                    } else {
+                        validationMessage.textContent = "Неправильно! Правильна відповідь: " + correctAnswers[i];
+                        validationMessage.classList.add("incorrect");
+                        validationMessage.classList.remove("correct");
+                        document.getElementById("answer-" + i).classList.add("incorrect");
+                        document.getElementById("answer-" + i).classList.remove("correct");
+                    }
+                }
+
+                alert("Тест відправлено! Ваш рахунок: " + score + "/" + @Model.MathTasks.Count);
+            }
+        });
+    </script>
 }
