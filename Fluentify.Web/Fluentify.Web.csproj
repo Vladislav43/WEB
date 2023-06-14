@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Models\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
@@ -35,6 +39,18 @@
     <ProjectReference Include="..\Fluentify.Core\Fluentify.Core.csproj" />
     <ProjectReference Include="..\Fluentify.Database\Fluentify.Database.csproj" />
     <ProjectReference Include="..\Fluentify.Models\Fluentify.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Models\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Models\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Models\Error.cshtml" />
   </ItemGroup>
 
 </Project>
