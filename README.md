@@ -42,17 +42,17 @@ Instructions for compiling the project locally from GitHub:
       - [x] CI/CD
       - [x] Application Insights
 4. User login system
-      - [ ] Done
+      - [x] Done
 5. Find out main functions for website
-      - [ ] Done
+      - [x] Done
 6. Implement like-based sorting algorithm
-      - [ ] Done
+      - [x] Done
 7. Features creation
-      - [ ] Done
+      - [x] Done
 8. Bug fixing
-      - [ ] Done
+      - [x] Done
 9. UNIT TEST
-      - [ ] Done
+      - [x] Done
 
 
 
