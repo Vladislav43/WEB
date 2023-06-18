@@ -796,3 +796,9 @@
 \\Mac\Home\Desktop\project\WEB\Fluentify.Test\obj\Debug\net7.0\Fluentify.Test.pdb
 \\Mac\Home\Desktop\project\WEB\Fluentify.Test\obj\Debug\net7.0\Fluentify.Test.genruntimeconfig.cache
 \\Mac\Home\Desktop\project\WEB\Fluentify.Test\obj\Debug\net7.0\ref\Fluentify.Test.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Test\bin\Debug\net7.0\Moq.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Test\bin\Debug\net7.0\nunit.framework.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Test\bin\Debug\net7.0\xunit.abstractions.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Test\bin\Debug\net7.0\xunit.assert.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Test\bin\Debug\net7.0\xunit.core.dll
+\\Mac\Home\Desktop\project\WEB\Fluentify.Test\bin\Debug\net7.0\xunit.execution.dotnet.dll
