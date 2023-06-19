@@ -59,8 +59,4 @@
     <None Include="wwwroot\js\script_2.js" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\OpenAPI\" />
-  </ItemGroup>
-
 </Project>
