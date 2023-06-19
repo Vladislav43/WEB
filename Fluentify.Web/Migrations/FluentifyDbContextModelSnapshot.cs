@@ -123,23 +123,26 @@ namespace Fluentify.Web.Migrations
                     b.ToTable("Tasks");
                 });
 
-            modelBuilder.Entity("Fluentify.Web.Areas.Identity.Data.Skore", b =>
+            modelBuilder.Entity("Fluentify.Web.Areas.Identity.Data.TestResult", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("Score")
+                    b.Property<int>("CorrectAnswersCount")
                         .HasColumnType("int");
 
-                    b.Property<int>("TaskId")
+                    b.Property<int>("UserID")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.Property<int>("UserLevel")
+                        .HasColumnType("int");
 
-                    b.ToTable("Skores");
+                    b.HasKey("ID");
+
+                    b.ToTable("TestResults");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

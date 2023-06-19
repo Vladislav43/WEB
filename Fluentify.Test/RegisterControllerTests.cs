@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
+using net.openstack.Providers.Rackspace.Objects.Monitoring;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -92,7 +93,7 @@ namespace Fluentify.UnitTests.Controllers
             var result = await controller.Index(registerModel);
 
             // Assert
-           Xunit.Assert.IsType<ViewResult>(result);
+            Xunit.Assert.IsType<ViewResult>(result);
             var viewResult = (ViewResult)result;
             Xunit.Assert.Equal(registerModel, viewResult.Model);
             Xunit.Assert.False(viewResult.ViewData.ModelState.IsValid);

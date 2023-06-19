@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ruoLBNRpivEa2KPc1G4DpygaSBciWhj439Cm4mz9spU=",
+  "Hash": "PawEawhnvxvkEYSHTxBBg/3uwJ7vA/Mk5HEASTmEJOI=",
   "Source": "Fluentify.Web",
   "BasePath": "_content/Fluentify.Web",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\.DS_Store"
+    },
+    {
+      "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\chat.css",
+      "SourceId": "Fluentify.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\",
+      "BasePath": "_content/Fluentify.Web",
+      "RelativePath": "css/chat.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chat.css"
     },
     {
       "Identity": "\\\\Mac\\Home\\Desktop\\project\\WEB\\Fluentify.Web\\wwwroot\\css\\site.css",

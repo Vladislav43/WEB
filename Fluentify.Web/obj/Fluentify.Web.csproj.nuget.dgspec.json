@@ -347,6 +347,10 @@
               "target": "Package",
               "version": "[7.0.2, )"
             },
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.29.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -368,6 +372,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.6, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "OpenAI.ChatGPT": {
+              "target": "Package",
+              "version": "[2.6.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

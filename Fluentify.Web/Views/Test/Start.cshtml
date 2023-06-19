@@ -1,6 +1,13 @@
 ﻿@model Fluentify.Web.Models.TestViewModel
 
 <style>
+    .text-to-speech-button {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
     .test-container {
         display: flex;
         flex-wrap: wrap;
@@ -90,6 +97,13 @@
         right: 20px;
         font-size: 24px;
     }
+
+    .text-to-speech-button {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
 </style>
 
 <h1 style="text-align: center;">Тестування</h1>
@@ -117,8 +131,8 @@
     <div id="submit-test-container">
         <button type="submit" id="submit-test">Відправити тест</button>
     </div>
-}
 
+}
 @section scripts {
     <script>
         var minutes = 15;
@@ -133,7 +147,7 @@
                     clearInterval(interval);
                     timerElement.textContent = "Час тесту завершено";
 
-                    // Виконати потрібні дії, коли час тесту закінчено
+                    window.location.href = '/Index';
                 } else if (seconds === 0) {
                     minutes--;
                     seconds = 59;
@@ -164,11 +178,11 @@
             if (allInputsFilled) {
                 // Всі поля заповнені, можна відправити тест
                 var correctAnswers = [
-        @foreach (var task in Model.MathTasks)
-        {
-            @Html.Raw($"'{task.CorrectAnswer}',")
-        }
-                        ];
+                    @foreach (var task in Model.MathTasks)
+                    {
+                        @Html.Raw($"'{task.CorrectAnswer}',")
+                    }
+                ];
 
                 var score = 0;
                 for (var i = 0; i < @Model.MathTasks.Count; i++) {
@@ -190,6 +204,7 @@
                 }
 
                 alert("Тест відправлено! Ваш рахунок: " + score + "/" + @Model.MathTasks.Count);
+
             }
         });
     </script>

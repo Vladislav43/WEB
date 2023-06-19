@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+
 <style>
     body {
         background-color: #f2f2f2;
@@ -31,6 +32,12 @@
             border-color: #b30000;
         }
 
+    .btn-success {
+        background-color: #00cc00;
+        border-color: #00cc00;
+        font-weight: bold;
+    }
+
     .card {
         background-color: #fff;
         border: none;
@@ -54,6 +61,22 @@
         margin-bottom: 10px;
     }
 </style>
+
+<script>
+    async function changeButtonColor(button) {
+        button.classList.add('btn-success'); // Додаємо клас 'btn-success' для зміни кольору кнопки на зелений
+
+        await delay(2000); // Затримка на 2 секунди
+
+        button.classList.remove('btn-success'); // Видаляємо клас 'btn-success' після затримки
+    }
+
+    function delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+</script>
+
+
 
 <div class="container mt-5">
     <h2 class="text-center">Mathematical Trainer</h2>

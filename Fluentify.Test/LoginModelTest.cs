@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Moq;
+using net.openstack.Providers.Rackspace.Objects.Monitoring;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -48,7 +49,7 @@ namespace Fluentify.UnitTests.Areas.Identity.Pages.Account
             // Assert
             Xunit.Assert.IsType<LocalRedirectResult>(result);
             var redirectResult = (LocalRedirectResult)result;
-           Xunit.Assert.Equal(returnUrl, redirectResult.Url);
+            Xunit.Assert.Equal(returnUrl, redirectResult.Url);
         }
     }
 }
