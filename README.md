@@ -1,11 +1,11 @@
-# Voievoda
+# Roman Ilto
 ### Welcome to the Voievoda project, a web application for interactive math learning for students of all levels. This project was developed as part of the "Web Technology" course at Lviv National University of Ivan Franko by Vladislav Voievoda.
 "Math Mastery: Interactive Math Learning for Students of All Levels".<br/>
 by Vladislav Voievoda
 
 Contacts :<br/>
-<a href="mailto:insagramerr@gmail.com">Email</a><br/>
-<a href="https://t.me/NiVlad2" target="_blank">Telegram</a>
+<a href="mailto:romanilte5@gmail.com">Email</a><br/>
+<a href="https://t.me/ILTO214214" target="_blank">Telegram</a>
 
 # Stack
 The Voievoda project was developed using the following technologies:
@@ -64,19 +64,3 @@ Instructions for compiling the project locally from GitHub:
 
 
 
-
-# Lab 3
-1. 1)Validation added to registration(includes error window)
-   2)Hashing password
-2. Zhovanuk Olexandr
-3. <a href="https://github.com/fdsssawe/inkfinder" target="_blank">My project</a>
-4. <a href="https://github.com/Vladislav43/WEB/pull/1" target="_blank">Pull request</a>
-
-
-# Lab 4
-- Reviewer: Oleh Suvorov
-- Oleh's [project](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone)
-- [Pull request](https://github.com/plxgwalker/WEB/pull/1) with full review of code
-- Reviewer: Volodymyr Kozariz
-- Volodya`s [project](https://github.com/odvova/Edelveis)
-- [Pull request](https://github.com/odvova/WEB/pull/1) with full review of code
