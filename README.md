@@ -1,14 +1,14 @@
 # Roman Ilto
 ### Welcome to the Voievoda project, a web application for interactive math learning for students of all levels. This project was developed as part of the "Web Technology" course at Lviv National University of Ivan Franko by Vladislav Voievoda.
 "Math Mastery: Interactive Math Learning for Students of All Levels".<br/>
-by Vladislav Voievoda
+by Ilto Roman
 
 Contacts :<br/>
 <a href="mailto:romanilte5@gmail.com">Email</a><br/>
 <a href="https://t.me/ILTO214214" target="_blank">Telegram</a>
 
 # Stack
-The Voievoda project was developed using the following technologies:
+The ILTO project was developed using the following technologies:
 
  -  .NET - free, open-source, cross-platform framework for building modern apps and powerful cloud services.
  -  Azure - cloud computing platform and a set of services provided by Microsoft for building, deploying, and managing applications and services through Microsoft-managed data centers.
