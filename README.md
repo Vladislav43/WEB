@@ -1,5 +1,5 @@
 # Roman Ilto
-### Welcome to the Voievoda project, a web application for interactive math learning for students of all levels. This project was developed as part of the "Web Technology" course at Lviv National University of Ivan Franko by Vladislav Voievoda.
+### Welcome to the Voievoda project, a web application for interactive math learning for students of all levels. This project was developed as part of the "Web Technology" course at Lviv National University of Ivan Franko by Roman Ilto
 "Math Mastery: Interactive Math Learning for Students of All Levels".<br/>
 by Ilto Roman
 
